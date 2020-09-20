@@ -1,0 +1,104 @@
+.directory {
+    height: 100%;
+
+    .wrap {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+
+        .item {
+            width: 33%;
+            height: 33%;
+            float: left;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            cursor: pointer;
+            border: 3px solid black;
+
+            ::after {
+                box-sizing: inherit;
+            }
+            .item1 {
+                position: relative;
+                top: 70%;
+                a {
+                    // background: #65FC6A;
+                    background: #92dce5;
+                    color: #fefcff;
+                }
+                
+            }
+            .item2 {
+                position: relative;
+                top: 70%;
+                a {
+                    // background: #92dce5;
+                    background: #DCE594;
+                    color: #fefcff;
+                }
+                
+            }
+            .item3 {
+                position: relative;
+                top: 70%;
+                a {
+                    // background: #c988e9;
+                    background: #c988e9;
+                    color: #fefcff;
+                }
+                
+            }
+            .item4 {
+                position: relative;
+                top: 70%;
+                a {
+                    background: #94E5B9;
+                    color: #fefcff;
+                    // background: #c81d25;
+                }
+                
+            }
+            .item5 {
+                position: relative;
+                top: 70%;
+                a {
+                    // background: #d86c71;
+                    background: #d86c71;
+                    color: #fefcff;
+                }
+                
+            }
+            .item6 {
+                position: relative;
+                top: 70%;
+                a {
+                    // background: #778578;
+                    background: #778578;
+                    color: #fefcff;
+                }
+                
+            }
+
+            a {
+                position: relative;
+                // z-index: 2;
+                // // top: 50%; left: 30%;
+                // -webkit-transform: translate(-50%, -50%);
+                // -moz-transform: translate(-50%, -50%);
+                // transform: translate(-50%, -50%);
+                font-size: 2rem;
+                line-height: 1;
+                font-weight: 700;
+                text-transform: uppercase;
+                padding: 5px 15px;
+                border: 1px solid black;
+            }
+        }
+
+        testHeight {
+            height: 1000px
+        }
+    }
+}
